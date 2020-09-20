@@ -15,7 +15,7 @@ The published paper is available [HERE](https://fruct.org/publications/fruct27/f
 
 
 
-**FOLDER STRUCTURE**
+## FOLDER STRUCTURE
 
  - **data** - Store the csv converted MIDI track and patterns
  - **det** - Scripts for the Deterministic System
@@ -24,7 +24,7 @@ The published paper is available [HERE](https://fruct.org/publications/fruct27/f
  - **mnn** - Scripts for the Multiple Neural Network System
 
 
- **OPERATIONAL PROCEDURE**
+ ## OPERATIONAL PROCEDURE
 
   *Patterns are stored as MIDI files. In a real world scenario, the track will re real time, but for simulations, the track is also saved as a MIDI file*
   *The script has specified where a user input is required*
