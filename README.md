@@ -48,3 +48,14 @@ The published paper is available [HERE](https://fruct.org/publications/fruct27/f
    - *`mnn/train_mnn.ipynb`* contains the scripts to specify the paramaters of, compile and train the neural network. Each training dataset is loaded and and each neural network is trained and saved to file in *`data/`*. The parameters of the neural network could be changed here.
    - *`mnn/load_snn`* loads all saved neural networks. Then it simulates a real time operation by extracting sub-sequences from the track, and checking them through each neural network, on the fly. Results are saved to multiple arrays for later viewing.
 
+
+## The following pythin modules are required
+ - numpy
+ - random
+ - csv
+ - mido
+ - os 
+ - glob
+ - tensorflow
+ - itertools
+ - sklearn
